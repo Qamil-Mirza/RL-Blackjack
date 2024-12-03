@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "blackjack-rl-agent"
+version = "0.1.0"
+description = ""
+authors = ["Qamil-Mirza <qamilmirza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ale-py = "^0.10.1"
+gymnasium = "^1.0.0"
+pygame = "^2.6.1"
+tqdm = "^4.67.1"
+matplotlib = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
